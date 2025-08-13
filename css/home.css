@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    border: 2px solid black;
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: auto;
+}
+
+.navbar-brand{
+    background-image: url("img/img/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    width: 100px;
+    margin: 20px 0px 23px 15px;
+}
+
+.nav-item{
+    margin: 50px 20px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container{
+    background-image: url("img/img/bg.png");
+    background-size: cover;
+    height: 565px;
+    width: 100%;
+    max-width: 1717px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner-container h2 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.input-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 550px;
+    margin-top: 140px;
+}
+
+#search-form button {
+    display: inline;
+    height: 40px;
+}
+
+.page-container{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: white;
+  height: 500px;
+}
+
+.city-heading{
+  text-align: center;
+  padding-bottom: 1.5rem;
+
+}
+
+.city-card1{
+    background-image: url("img/img/delhi.png");
+    border: 2px solid rgb(220, 220, 220);
+    border-radius: 50%;
+    width: 150px;
+    height: 120px;
+    background-size: contain;   /* Ensures the full image fits */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;      /* So text sits at bottom */
+    justify-content: center;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.city-card2{
+    background-image: url("img/img/mumbai.png");
+    border: 2px solid rgb(220, 220, 220);
+    border-radius: 50%;
+    width: 150px;
+    height: 120px;
+    background-size: contain;   /* Ensures the full image fits */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;      /* So text sits at bottom */
+    justify-content: center;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.city-card3{
+    background-image: url("img/img/bangalore.png");
+    border: 2px solid rgb(220, 220, 220);
+    border-radius: 50%;
+    width: 150px;
+    height: 120px;
+    background-size: contain;   /* Ensures the full image fits */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;      /* So text sits at bottom */
+    justify-content: center;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.city-card4{
+    background-image: url("img/img/hyderabad.png");
+    border: 2px solid rgb(220, 220, 220);
+    border-radius: 50%;
+    width: 150px;
+    height: 120px;
+    background-size: contain;   /* Ensures the full image fits */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;      /* So text sits at bottom */
+    justify-content: center;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .banner-container {
+        height: auto;
+        padding: 40px 20px;
+        flex-direction: column;
+    }
+
+    .input-group {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .page-container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .city-card1,
+    .city-card2,
+    .city-card3,
+    .city-card4 {
+        width: 120px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
+    .city-heading {
+        font-size: 22px;
+    }
+}

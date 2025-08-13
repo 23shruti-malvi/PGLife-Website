@@ -1,0 +1,68 @@
+/* Container & Layout */
+.modal-custom {
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+.modal-header {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.modal-title {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+/* Inputs */
+.modal-body .form-control {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-shadow: none;
+  font-size: 15px;
+  padding: 10px 12px;
+  transition: border-color 0.2s;
+}
+
+.modal-body .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+}
+
+/* Buttons */
+.btn-block {
+  padding: 10px 0;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+/* Text Links */
+.modal-body p {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.modal-body a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.modal-body a:hover {
+  text-decoration: underline;
+}
+
+/* Close Button */
+.modal-header .close {
+  font-size: 1.5rem;
+  color: #555;
+  opacity: 1;
+}
+
+.modal-header .close:hover {
+  color: #000;
+}
